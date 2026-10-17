@@ -5,8 +5,8 @@ A personal portfolio with editable content files. GitHub Pages deployment is con
 ## Editing
 
 - `content/home.json`: introduction/bio, header name (`brand`), education, experience, skills, and contact links.
-- `content/about.json`: About Me page title and longer bio. Separate paragraphs with `\n\n`.
-- `content/projects/*.json`: one file per project. Copy a file to add a project; change `order` to reorder it. The gallery and navigation are generated together.
+- `content/about.json`: Saved About Me draft (page currently disabled). Separate paragraphs with `\n\n`.
+- `content/projects/*.json`: one file per project. Copy a file to add a project; change `order` to reorder it. Projects appear as non-clickable cards on one gallery page. Individual detail pages and their dropdown navigation are disabled; detailed content remains saved in these files.
 - `content/hobbies.json`: hobby cards and links.
 - `assets/styles.css`: appearance and responsive layout.
 - `build.mjs`: shared page templates.
@@ -22,12 +22,14 @@ The project has no package dependencies. Node is needed to rebuild; Python is us
 ## Pages
 
 - Home: introduction/bio and photos, resume/contact, education, experience, and skills, with a matching contents sidebar.
-- Projects: four placeholder tiles with individual detail pages, plus a hover/click/keyboard dropdown.
+- Projects: one gallery page listing all projects, without detail pages or expansion.
 - Fun Stuff: climbing and hobby placeholders.
 
 On narrow screens the contents navigation moves above the page content. Fonts load from Google Fonts when online, with local system fallbacks.
 
 ## Optional project demos
+
+Detail-page rendering is currently disabled. The saved project content retains the optional demo fields for future use.
 
 Project 1 demonstrates the optional **Demo videos & images** section. Other projects set `demos` to `null`, which hides both the section and its contents link. To enable it, copy Project 1’s `demos` object into another project file. Remove it or set it to `null` to hide it again.
 

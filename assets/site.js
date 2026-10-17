@@ -1,10 +1,3 @@
-const menu = document.querySelector('.project-menu');
-const toggle = document.querySelector('.menu-toggle');
-toggle?.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') !== 'true'; toggle.setAttribute('aria-expanded', String(open)); menu.classList.toggle('open', open); menu.classList.toggle('dismissed', !open); });
-menu?.addEventListener('pointerenter', () => menu.classList.remove('dismissed'));
-menu?.addEventListener('focusout', event => { if (!menu.contains(event.relatedTarget)) { menu.classList.remove('dismissed','open'); toggle?.setAttribute('aria-expanded','false'); } });
-document.addEventListener('click', event => { if (!menu?.contains(event.target)) { menu?.classList.remove('open'); toggle?.setAttribute('aria-expanded','false'); } });
-document.addEventListener('keydown', event => { if (event.key === 'Escape') { menu?.classList.remove('open'); menu?.classList.add('dismissed'); toggle?.setAttribute('aria-expanded','false'); if(menu?.contains(document.activeElement)) (toggle ?? menu.querySelector('.project-control a'))?.focus(); } });
 const links = [...document.querySelectorAll('.toc nav a')];
 const sections = links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
 function updateContents(){ const threshold=(parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0)+2; let active=sections[0]; for(const section of sections){if(section.getBoundingClientRect().top<=threshold) active=section;} if(window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-2) active=sections.at(-1); for(const a of links){const selected=a.getAttribute('href')===`#${active?.id}`;a.classList.toggle('active',selected);if(selected)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');}}

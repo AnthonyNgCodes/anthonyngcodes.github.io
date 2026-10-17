@@ -6,6 +6,12 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 const read = async p => JSON.parse(await readFile(path.join(root, p), 'utf8'));
 const assetVersion = createHash('sha256').update(await readFile(path.join(root,'assets/styles.css'))).update(await readFile(path.join(root,'assets/site.js'))).digest('hex').slice(0,12);
 const home = await read('content/home.json');
+for (const key of ['resume', 'cv']) {
+ if (home[key]?.startsWith('./assets/')) {
+  const version = createHash('sha256').update(await readFile(path.join(root, home[key]))).digest('hex').slice(0,12);
+  home[key] += `?v=${version}`;
+ }
+}
 const hobbies = await read('content/hobbies.json');
 const research = await read('content/research.json');
 const files = (await readdir(path.join(root, 'content/projects'))).filter(f => f.endsWith('.json'));

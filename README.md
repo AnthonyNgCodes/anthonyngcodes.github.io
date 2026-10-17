@@ -47,7 +47,7 @@ In `content/home.json`, each education entry has an optional `gpa` field shown b
 
 `fullName` and `chineseName` control the introduction’s name lines. `cv` links to the supplied CV in `assets/anthony-ng-cv.pdf`; replace that file to update the CV. `resume` is a separate link for a shorter resume.
 
-`resume` and `cv` point to separate public PDFs in `assets/anthony-ng-resume.pdf` and `assets/anthony-ng-cv.pdf`. Both open in a new tab. Replace either file and rebuild to update it.
+`resume` and `cv` point to separate public PDFs in `assets/anthony-ng-resume.pdf` and `assets/anthony-ng-cv.pdf`. Both open in a new tab. Replace either file and rebuild to update it. The build automatically adds a content-based version tag to each PDF link so browsers fetch the updated document instead of a cached copy.
 
 Each education and experience entry has a `logo` field. Leave it empty for a logo placeholder, or set it to an image path such as `./assets/university-logo.png`. Put the image in `assets/` and rebuild.
 

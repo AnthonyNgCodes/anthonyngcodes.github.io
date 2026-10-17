@@ -1,0 +1,261 @@
+{
+  "name": "Anthony Ng",
+  "label": "Robotics Engineer · M.S. Robotics, Georgia Institute of Technology",
+  "headline": "A little about me,\nand the work I do.",
+  "intro": "Hello! My name is Anthony, and I'm a current M.S. Robo student at Georgia Tech researching powered prostheses. I completed my B.S. in Mechanical Engineering at the University of Illinois at Urbana-Champaign, and I was born and raised in the Bay Area, CA! As a robotics engineer, I hope to contribute to a safer and more accessible future for the world.\n\nCome check out some of the stuff I've done, and please feel free to reach out about any inquiries whatsoever. Would love to chat!",
+  "education": [
+    {
+      "school": "Georgia Institute of Technology",
+      "degree": "M.S. Robotics (Home School: Mechanical Engineering) · Prospective Thesis",
+      "date": "Fall 2026 — Spring 2028",
+      "gpa": "N/A (I just started!)",
+      "logo": "./assets/logos/georgia-tech.svg",
+      "description": "Coursework: Dynamics of Mechanical Systems, Linear Controls, Probability Theory for Science and Engineering\nEPIC Lab"
+    },
+    {
+      "school": "University of Illinois Urbana-Champaign",
+      "degree": "B.S. Mechanical Engineering · Minor in Computer Science",
+      "date": "Spring 2022 — Fall 2025",
+      "gpa": "3.97 / 4.00",
+      "logo": "./assets/logos/uiuc.png",
+      "description": "Honors/Awards: Bronze Tablet Award (top 3%), Highest Honors, James Scholar Honors, 6x Dean's List\nExtracurriculars: Intervarsity Christian Fellowship, IBB Lab (Spring 2024-Fall 2024), MedLaunch (Fall 2022-Spring 2024)\nMajor Elective Coursework: Robot Dynamics and Controls, Computer Control of Mechanical Systems, Mechanical Design Optimization, Data Structures (from my CS Minor)\nMinor Elective Coursework: Numerical Methods, Deep Learning for Computer Vision"
+    }
+  ],
+  "experience": {
+    "research": [
+      {
+        "organization": "Georgia Tech EPIC Lab",
+        "role": "Graduate Researcher · Powered Prosthesis Team · Dr. Aaron Young",
+        "date": "Fall 2026 — Present",
+        "logo": "./assets/logos/epic.png",
+        "highlights": [
+          "Support powered-prosthesis trials through motion-capture and onboard sensor data collection.",
+          "Integrate and configure BLDC actuators and IMUs for the OSL powered prosthesis using Jetson Orin Nano.",
+          "Integrated a hardware emergency stop and tested the circuit at various currents using an ESP32 C++ script."
+        ],
+        "skills": [
+          "C++",
+          "Pyton",
+          "ESP32",
+          "Jetson Orin Nano",
+          "3D Printing",
+          "Vicon motion capture"
+        ]
+      },
+      {
+        "organization": "UIUC IBB Lab",
+        "role": "Undergraduate Researcher · Dr. Callan Luetkemeyer",
+        "date": "Spring 2024 — Fall 2024",
+        "logo": "./assets/logos/ibb.png",
+        "highlights": [
+          "Developed a thermoregulated bath for in situ testing and confocal microscopy of biological specimens.",
+          "Designed parts and drawings for machining and 3D printing in SolidWorks, and selected thermal materials for lab safety and fixture effectiveness."
+        ],
+        "skills": [
+          "SolidWorks",
+          "3D printing",
+          "Thermal design"
+        ]
+      }
+    ],
+    "industry": [
+      {
+        "organization": "Intuitive Surgical",
+        "role": "Mechanical Engineering Intern · DaVinci Multiport Core Instrument Sustaining Design Engineering Team",
+        "date": "Summer 2026",
+        "logo": "./assets/logos/intuitive.png",
+        "highlights": [
+          "Designed and fabricated a modular fixture and test method for component-level friction testing across da Vinci Multiport Core 8 mm instruments.",
+          "Conducted CT scanning and material testing to compare metal 3D-printed and metal injection-molded patient-contacting components.",
+          "Designed and assembled safety cladding and fixturing for force-feedback test equipment."
+        ],
+        "skills": [
+          "SolidWorks",
+          "CT scanning",
+          "Material testing",
+          "Machining",
+          "Test method dev."
+        ]
+      },
+      {
+        "organization": "Brooks Automation",
+        "role": "Mechanical Engineering Intern",
+        "date": "Summer 2025",
+        "logo": "./assets/logos/brooks.webp",
+        "highlights": [
+          "Led customer collaboration to diagnose EFEM vibrations using three-axis accelerometer data and Python spectral analysis, presenting findings to technical and nontechnical stakeholders.",
+          "Performed static and dynamic load calculations and FEA for robot redesign configurations using simplified CAD models, Creo, and Python.",
+          "Designed a fixture to run 24-hour motor tests on multiple units without full assembly."
+        ],
+        "skills": [
+          "Python",
+          "Creo",
+          "FEA",
+          "Spectral analysis"
+        ]
+      },
+      {
+        "organization": "Intuitive Surgical",
+        "role": "Mechatronic Equipment Engineering Intern · DaVinci Multiport Systems Equipment Engineering Team",
+        "date": "Summer 2024",
+        "logo": "./assets/logos/intuitive.png",
+        "highlights": [
+          "Designed, prototyped, and built a fixture in SolidWorks to improve warehouse safety and ergonomics.",
+          "Collaborated on a da Vinci 5 surgeon-side console motor test module, refining designs with FEA, 3D printing, and drawings including GD&T."
+        ],
+        "skills": [
+          "SolidWorks",
+          "FEA",
+          "3D printing",
+          "GD&T"
+        ]
+      },
+      {
+        "organization": "Endovascular Engineering",
+        "role": "Manufacturing Engineering Intern",
+        "date": "Summer 2023",
+        "logo": "./assets/logos/endovascular.jpg",
+        "highlights": [
+          "Designed, prototyped, released, and qualified manufacturing and inspection fixtures using SolidWorks and Bambu Lab and Phrozen 3D printers.",
+          "Developed and improved radial-force and tensile tests for incoming inspection using Mark-10 test stands, MSI radial-force testing, Excel, and Python."
+        ],
+        "skills": [
+          "SolidWorks",
+          "3D printing",
+          "Machining",
+          "Python",
+          "Equipment qualification",
+          "Test method dev."
+        ],
+        "logoCrop": "e2"
+      },
+      {
+        "organization": "Earlens Corporation",
+        "role": "R&D Engineering Intern",
+        "date": "Summer 2022",
+        "logo": "./assets/logos/earlens.png",
+        "highlights": [
+          "Analyzed product-return data to streamline Operations solutions using QAD, Rhino3D, and Excel.",
+          "Conducted design-of-experiments and feasibility testing on new tubing material using Minitab, Geomagic, and ScanApp."
+        ],
+        "skills": [
+          "Design of experiments",
+          "Minitab",
+          "Rhino3D",
+          "Geomagic",
+          "Test method dev.",
+          "Material testing",
+          "Data analysis"
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Hardware",
+      "items": [
+        {
+          "name": "Solidworks",
+          "isNew": false
+        },
+        {
+          "name": "Creo",
+          "isNew": false
+        },
+        {
+          "name": "Fusion 360",
+          "isNew": false
+        },
+        {
+          "name": "3D Printing",
+          "isNew": false
+        },
+        {
+          "name": "Machining",
+          "isNew": false
+        },
+        {
+          "name": "Circuitry",
+          "isNew": false
+        },
+        {
+          "name": "Material Testing",
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "category": "Software",
+      "items": [
+        {
+          "name": "C / C++",
+          "isNew": false
+        },
+        {
+          "name": "Python",
+          "isNew": false
+        },
+        {
+          "name": "MATLAB",
+          "isNew": false
+        },
+        {
+          "name": "Arduino & ESP32",
+          "isNew": false
+        },
+        {
+          "name": "ROS 2",
+          "isNew": true
+        }
+      ]
+    },
+    {
+      "category": "Soft skills",
+      "items": [
+        {
+          "name": "Presenting",
+          "isNew": false
+        },
+        {
+          "name": "Collaboration",
+          "isNew": false
+        },
+        {
+          "name": "Leadership",
+          "isNew": false
+        }
+      ]
+    },
+    {
+      "category": "Miscellaneous",
+      "items": [
+        {
+          "name": "Design of Experiments",
+          "isNew": false
+        },
+        {
+          "name": "Change Order & Doc Control",
+          "isNew": false
+        },
+        {
+          "name": "MS Office Suite",
+          "isNew": false
+        }
+      ]
+    }
+  ],
+  "email": "anthony.thomas.ng@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/anthonytng",
+  "resume": "./assets/anthony-ng-resume.pdf",
+  "brand": "Anthony 🆖",
+  "skillsIntro": "I'm always trying to deepen my engineering stack. Here are some of the skills I've put years into and some I've recently begun learning!",
+  "footerVerse": "So, whether you eat or drink, or whatever you do, do all to the glory of God.",
+  "footerReference": "1 Corinthians 10:31 ESV",
+  "fullName": "Anthony Thomas Ng",
+  "chineseName": "伍健恒",
+  "cv": "./assets/anthony-ng-cv.pdf",
+  "github": "https://github.com/AnthonyNgCodes",
+  "twitter": "https://x.com/anthonyngtweets",
+  "portrait": "./assets/anthony_monkey.jpg",
+  "portraitAlt": "Anthony in a monkey costume holding two bunches of bananas."
+}

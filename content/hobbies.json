@@ -1,0 +1,40 @@
+{
+  "intro": "A few things I enjoy outside of engineering. Add text here.",
+  "items": [
+    {
+      "title": "Climbing",
+      "description": "I have been climbing (almost exclusively bouldering) since Summer 2022. It's been an awesome way to get some fun exercise in while also interacting with amazing people. The highest grade I've sent so far is V7, but hopefully that V8 is coming soon! Check out my climbing Instagram page",
+      "link": "https://www.instagram.com/anthonyngclimbs/",
+      "linkLabel": "Climbing Instagram",
+      "video": "./assets/climbing-loop-hd.mp4",
+      "inlineLink": true,
+      "videoCaption": "a peak into my average session"
+    },
+    {
+      "title": "Basketball",
+      "video": "./assets/basketball-loop-hd.mp4",
+      "videoCaption": "6th grade me (Red #7) at Oracle Arena (ROARacle > Chase Center)",
+      "description": "Growing up, I always loved shooting around, and from 5th-8th grade, I played organized basketball. Through high school and college, I've still kept the hobby up from time to time playing in tournaments, pickup, and intramurals. Hopefully one day my goat Roy Yuan sees this...",
+      "descriptionLinks": [
+        {
+          "text": "Roy Yuan",
+          "url": "https://www.linkedin.com/in/ryuan19/"
+        }
+      ]
+    },
+    {
+      "title": "Volleyball",
+      "image": "./assets/volleyball-friends.jpg",
+      "imageAlt": "Anthony and friends posing with a volleyball in an indoor gym.",
+      "mediaCaption": "me & the bros",
+      "description": "My sophomore year of college some people in my Christian fellowship (IV) brought me out to play volleyball for the first time. I was immediately hooked, and almost everyday for a ~semester I would spend 15-30 minutes/day practicing setting/passing with myself in my dorm room using my roommate's volleyball (sorry for scuffing your ball and knocking all your stuff down)."
+    },
+    {
+      "title": "League of Legends",
+      "image": "./assets/league-gold-iv.png",
+      "imageAlt": "League of Legends ranked Solo/Duo promotion to Gold IV.",
+      "mediaCaption": "my proudest achievement",
+      "description": "Yes, unfortunately it is true. No other words."
+    }
+  ]
+}

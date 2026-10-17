@@ -7,8 +7,8 @@ document.addEventListener('click', event => { if (!menu?.contains(event.target))
 document.addEventListener('keydown', event => { if (event.key === 'Escape') { menu?.classList.remove('open'); menu?.classList.add('dismissed'); toggle?.setAttribute('aria-expanded','false'); if(menu?.contains(document.activeElement)) (toggle ?? menu.querySelector('.project-control a'))?.focus(); } });
 const links = [...document.querySelectorAll('.toc nav a')];
 const sections = links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
-function updateContents(){ let active=sections[0]; for(const section of sections){if(section.getBoundingClientRect().top<=160) active=section;} if(window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-2) active=sections.at(-1); for(const a of links){const selected=a.getAttribute('href')===`#${active?.id}`;a.classList.toggle('active',selected);if(selected)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');}}
-if(sections.length){addEventListener('scroll',updateContents,{passive:true});updateContents();}
+function updateContents(){ const threshold=(parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0)+2; let active=sections[0]; for(const section of sections){if(section.getBoundingClientRect().top<=threshold) active=section;} if(window.scrollY+window.innerHeight>=document.documentElement.scrollHeight-2) active=sections.at(-1); for(const a of links){const selected=a.getAttribute('href')===`#${active?.id}`;a.classList.toggle('active',selected);if(selected)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');}}
+if(sections.length){addEventListener('scroll',updateContents,{passive:true});addEventListener('scrollend',updateContents);addEventListener('resize',updateContents);updateContents();}
 
 const colorButtons = [...document.querySelectorAll('[data-accent]')].filter(el => el.tagName === 'BUTTON');
 const modeButton = document.querySelector('.mode-toggle');

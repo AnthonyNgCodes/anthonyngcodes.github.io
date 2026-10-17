@@ -1,0 +1,7 @@
+{
+  "intro": "A few things I enjoy outside of engineering. Add text here.",
+  "items": [
+    {"title": "Climbing", "description": "Add text here. Favorite climbs, places, or what you enjoy about the sport.", "link": "", "linkLabel": "Climbing account"},
+    {"title": "Another hobby", "description": "Add text here. A little space for another interest, activity, or side adventure.", "link": "", "linkLabel": "Add link"}
+  ]
+}

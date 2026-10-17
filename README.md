@@ -59,12 +59,12 @@ Supplied logos are in `assets/logos/`. Endovascular Engineering uses `logoCrop: 
 
 ## Publish on GitHub Pages
 
-Repository: https://github.com/AnthonyNgCodes/portfolio
+Repository: https://github.com/AnthonyNgCodes/anthonyngcodes.github.io
 
 1. Upload the source files and folders to the repository’s `main` branch, including `.github/workflows/static.yml`, `assets/`, `content/`, `build.mjs`, and `package.json`. Do not upload `tmp/`, `.git/`, or `dist/`.
 2. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build source.
 3. Open **Actions → Deploy portfolio to GitHub Pages → Run workflow** if the initial deployment did not complete before Pages was enabled.
-4. Once the workflow succeeds, the site will be available at https://anthonyngcodes.github.io/portfolio/ .
+4. Once the workflow succeeds, the site will be available at https://anthonyngcodes.github.io/ .
 
-The workflow builds `dist/` from the source and deploys it. After setup, every push to `main` automatically updates the live site. You can edit `content/home.json` or any project file directly on GitHub and commit the change to publish it. Relative links support GitHub Pages’ `/portfolio/` subdirectory.
+The workflow builds `dist/` from the source and deploys it. After setup, every push to `main` automatically updates the live site. You can edit `content/home.json` or any project file directly on GitHub and commit the change to publish it. This repository is a root user site, so pages and assets resolve from `/`.
 

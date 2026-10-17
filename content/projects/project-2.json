@@ -1,11 +1,8 @@
 {
-  "title": "Project 2",
+  "title": "More projects to be added soon",
   "order": 2,
-  "summary": "Add text here. A short description of the project and what it does.",
-  "tags": [
-    "Add skill",
-    "Add skill"
-  ],
+  "summary": "Check back some other time for more!",
+  "tags": [],
   "date": "20XX",
   "sections": [
     {
@@ -17,5 +14,6 @@
       "text": "Add text here. Describe your contribution, decisions, and iterations."
     }
   ],
-  "demos": null
+  "demos": null,
+  "comingSoon": true
 }

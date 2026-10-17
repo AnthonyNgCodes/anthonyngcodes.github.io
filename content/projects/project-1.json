@@ -1,10 +1,12 @@
 {
-  "title": "Project 1",
+  "title": "Senior Design: Oscillatory Flume",
   "order": 1,
-  "summary": "Add text here. A short description of the project and what it does.",
+  "summary": "I collaborated in a team of 4 ME's to design and assemble a fully functioning small-scale oscillatory flume for Dr. Chamorro. The flume ran an ODrive P + PI cascade position controller capable of achieving square, triangle, and sine waves with an amiplitude range of 10-30 cm and a frequency range of 0.1-0.5 Hz. I designed the rack & pinion drive train, its mounting components, and the 8020 extrusion structure along with assisting with the BLDC tuning. We won 2nd/32 teams for Best Trade Show Exhibit.",
   "tags": [
-    "Add skill",
-    "Add skill"
+    "Fusion 360",
+    "Controller Tuning",
+    "Presenting",
+    "Documentation"
   ],
   "date": "20XX",
   "sections": [
@@ -32,5 +34,12 @@
         "caption": "Project image"
       }
     ]
+  },
+  "image": "./assets/senior_design_website.jpg",
+  "imageAlt": "Assembled senior design oscillatory flume with an aluminum extrusion frame and rack-and-pinion drive on a lab bench.",
+  "demoLink": {
+    "url": "https://youtu.be/jESVvx_8YNc",
+    "prefix": "Check out the ad/demo video",
+    "label": "here"
   }
 }

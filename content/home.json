@@ -1,8 +1,8 @@
 {
   "name": "Anthony Ng",
   "label": "Robotics Engineer · M.S. Robotics, Georgia Institute of Technology",
-  "headline": "A little about me,\nand the work I do.",
-  "intro": "Hello! My name is Anthony, and I'm a current M.S. Robo student at Georgia Tech researching powered prostheses. I completed my B.S. in Mechanical Engineering at the University of Illinois at Urbana-Champaign, and I was born and raised in the Bay Area, CA! As a robotics engineer, I hope to contribute to a safer and more accessible future for the world.\n\nCome check out some of the stuff I've done, and please feel free to reach out about any inquiries whatsoever. Would love to chat!",
+  "headline": "A little about me,\nand the things I do.",
+  "intro": "Hello! My name is Anthony, and I'm a current M.S. Robo student at Georgia Tech researching powered prostheses. I completed my B.S. in Mechanical Engineering at the University of Illinois at Urbana-Champaign, and I was born and raised in the Bay Area, CA! Most recently, I interned at Intuitive Surgical working in instrument design. As a robotics engineer, I hope to contribute to a safer and more accessible future for the world.\n\nCome check out some of the stuff I've done, and please feel free to reach out about any inquiries whatsoever. Would love to chat!",
   "education": [
     {
       "school": "Georgia Institute of Technology",
@@ -258,5 +258,12 @@
   "twitter": "https://x.com/anthonyngtweets",
   "portrait": "./assets/anthony_monkey.jpg",
   "portraitAlt": "Anthony in a monkey costume holding two bunches of bananas.",
-  "portraitCaption": "Shoutout to my fellow Year of the Monkey babies 🐒"
+  "portraitCaption": "Shoutout to my fellow Year of the Monkey babies 🐒",
+  "meaningOfLife": {
+    "title": "The Meaning of Life",
+    "question": "Q. 1. What is the chief end of man?",
+    "answer": "A. Man’s chief end is to glorify God, and to enjoy Him forever.",
+    "attribution": "The Westminster Shorter Catechism, Question 1",
+    "description": "Yes, I understand it is quite the bold claim as a mere 22 year old to say that I know what the meaning of life is. I know billions of people before and after me have and will ponder this exact question. I am also well aware of the ways humanity has abused and perverted this same doctrine that I promote to bring pain and sorrow to others, but it is my sincere hope that the genuine Good News of the life, death, and resurrection of Jesus Christ (1 Cor. 15:3-4) can shine hope into everyone's lives in the same way it continues to form me into the person I am today. Thus, through the ways I believe I have seen God work through my life and those around me, I genuinely believe this is \"the way and the truth and the life\" (John 14:6). If this strikes a chord with you or raises any curiosity whatsoever, feel free to reach out! I am always happy to look for ways to spread more love."
+  }
 }

@@ -4,6 +4,7 @@ A personal portfolio with editable content files. GitHub Pages deployment is con
 
 ## Editing
 
+- `content/research.json`: Research page title and introduction.
 - `content/home.json`: introduction/bio, header name (`brand`), education, experience, skills, and contact links.
 - `content/about.json`: Saved About Me draft (page currently disabled). Separate paragraphs with `\n\n`.
 - `content/projects/*.json`: one file per project. Copy a file to add a project; change `order` to reorder it. Projects appear as non-clickable cards on one gallery page. Individual detail pages and their dropdown navigation are disabled; detailed content remains saved in these files.

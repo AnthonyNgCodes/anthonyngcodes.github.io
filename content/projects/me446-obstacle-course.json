@@ -1,0 +1,17 @@
+{
+  "title": "ME446 (Robot Dynamics and Controls): Manipulator Obstacle Course",
+  "order": 2,
+  "date": "Spring 2025",
+  "summary": "Along with a partner, I implemented variable impedance control using Jacobian force mapping with straight line trajectories to traverse the end-effector through peg insertion, zig-zag corridors, and pressing an egg within an applied load range of 500-1000g. This was the culmination of the semester's work where we started from the ground up, developing the analytical forward and inverse-kinematics ourselves and learning to apply it into joint and task space controllers written in C.",
+  "video": "./assets/me446-obstacle-course.mp4",
+  "videoCaption": "Video sped up 3X",
+  "demoLink": {
+    "url": "https://youtu.be/oXfCsv1qCEM",
+    "prefix": "Check out the normal speed HD demo video",
+    "label": "here"
+  },
+  "collaborators": [
+    {"name": "Coggan Banerian", "url": "https://www.linkedin.com/in/coggan-banerian/"}
+  ],
+  "tags": ["C", "MATLAB", "Robot IK/FK"]
+}

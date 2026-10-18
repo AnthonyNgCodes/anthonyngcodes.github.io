@@ -139,3 +139,7 @@ html{scroll-padding-top:146px}
 .emoji-shower{position:fixed;inset:0;z-index:100;overflow:hidden;pointer-events:none;user-select:none}
 .shower-emoji{position:absolute;top:0;line-height:1;will-change:transform,opacity}
 @media(prefers-reduced-motion:reduce){.emoji-shower{display:none}}
+.project-video-figure{margin:0}
+.project-video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:var(--soft);border:1px solid var(--line);border-radius:7px}
+.project-video-figure figcaption{margin-top:6px;text-align:center;font-size:11px;line-height:1.5;color:var(--muted)}
+.project-date{margin:6px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}

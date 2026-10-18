@@ -2,6 +2,11 @@
   "title": "Senior Design: Oscillatory Flume",
   "order": 1,
   "summary": "I collaborated in a team of 4 ME's to design and assemble a fully functioning small-scale oscillatory flume for Dr. Chamorro. The flume ran an ODrive P + PI cascade position controller capable of achieving square, triangle, and sine waves with an amiplitude range of 10-30 cm and a frequency range of 0.1-0.5 Hz. I designed the rack & pinion drive train, its mounting components, and the 8020 extrusion structure along with assisting with the BLDC tuning. We won 2nd/32 teams for Best Trade Show Exhibit.",
+  "collaborators": [
+    {"name": "Jordan Westphal", "url": "https://www.linkedin.com/in/jordan-westphal-509591278/"},
+    {"name": "Jedd Miguel", "url": "https://www.linkedin.com/in/jeddmiguel/"},
+    {"name": "Reginald Chen", "url": "https://www.linkedin.com/in/reginald-chen-b60b4b290/"}
+  ],
   "tags": [
     "Fusion 360",
     "Controller Tuning",

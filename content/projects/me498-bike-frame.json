@@ -1,0 +1,13 @@
+{
+  "title": "ME498 (Mechanical Design Optimization): Bike Frame Topology Optimization",
+  "order": 2,
+  "date": "Fall 2025",
+"summary": "I developed a Python-based SIMP topology optimization model to explore aluminum bike frame designs under cruising, off-saddle climbing, and braking loads. Using the finite element method, analytical sensitivities, and SciPy's SLSQP optimizer, I minimized compliance while limiting material to 30% of the fully solid design domain. The resulting 2D designs revealed how different riding conditions change the optimal placement of material and frame reinforcement.",
+  "documentLinks": {
+    "presentation": "./assets/me498-final-presentation.pdf",
+    "report": "./assets/me498-final-report.pdf"
+  },
+  "image": "./assets/me498-bike-frame-results.png",
+  "imageAlt": "Results slide comparing optimized bike frame density maps for cruising, climbing, and braking, with corresponding cycling photographs.",
+  "tags": ["Python", "Topology Optimization", "Finite Element Analysis/Method", "SciPy/numpy"]
+}

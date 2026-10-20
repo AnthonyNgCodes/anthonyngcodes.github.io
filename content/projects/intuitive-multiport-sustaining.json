@@ -1,0 +1,9 @@
+{
+  "title": "Intuitive Surgical: DaVinci Multiport Core Instrument Sustaining Design Team",
+  "order": 0,
+  "date": "Summer 2026",
+  "summary": "At my second Intuitive internship, I had 3 main projects. The largest project was creating a test method to conduct component-level friction testing on our MP 8mm core instruments along with its necessary fixturing. I conducted a Gage R&R along with other tests to validate the test/fixture and collect critical data on a high-scrap-rate instrument. For my first side project, I was tasked with designing and assembling safety cladding for an existing Force Feedback test equipment. The biggest challenge for this was the DFA along with working with a CAD model inconsistent with the real-life equipment. My last project was a characterization of metallic 3D printed (M3DP) vs metallic injection molded (MIM) parts. I conducted cantilever bending tests and CT scans to investigate the viability of M3DP for lower-volume, higher-complexity patient-contacting components, along with interfacing directly with the supplier.",
+  "image": "./assets/intuitive-multiport-instruments.jpg",
+  "imageAlt": "Da Vinci surgical instruments arranged radially against a black background.",
+  "tags": ["SolidWorks", "3D Printing", "Machining", "DFM", "Equipment Validation", "Material Testing", "CT Scanning", "Supplier Communication"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Intuitive Surgical: DaVinci Multiport Systems Equipment Engineering Team",
+  "order": 4,
+  "date": "Summer 2024",
+  "summary": "At my first Intuitive Internship, I had 2 projects. For the first project, a 100 lb. plate needed to be safely and efficiently transferred in shipping & receiving from the pallets to a proprietary cart. I designed a hook with a locking mechanism interfacing with an access window in the plate and attached it to a crane to be picked up and transferred without any humans carrying any dangerous loads. I verified and iterated the design via FEA and multiple design reviews. In the end, I drafted all necessary drawings and obtained a fully functioning machined prototype. For my second project, I collaborated in a cross-functional team to address a certain test for a motor in the DaVinci 5 Surgeon-side Console with a ~10% failure rate could only be conducted in its integrated top level subassembly. I designed a portable test module with the ability to quickly replace the motor via screwing/unscrewing 4 bolts instead of reassembling the entire subassembly and used a mock-weight instead of an expensive component of the SSC. I drafted all necessary drawing and used GD&T to ensure precise fit between proprietary custom components. As of today, this test module is used daily in the DV5 systems manufacturing line.",
+  "image": "./assets/intuitive-davinci-5-system.jpg",
+  "imageAlt": "Intuitive da Vinci 5 surgical robotic system, showing the vision cart, surgeon console, and patient-side robotic arms.",
+  "tags": ["SolidWorks", "FEA", "GD&T", "Cross-functional Collaboration"]
+}

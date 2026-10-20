@@ -1,7 +1,7 @@
 {
   "title": "ME470 (Senior Design): Oscillatory Flume",
   "order": 1,
-  "summary": "I collaborated in a team of 4 ME's to design and assemble a fully functioning small-scale oscillatory flume for Dr. Chamorro. The flume ran an ODrive P + PI cascade position controller capable of achieving square, triangle, and sine waves with an amiplitude range of 10-30 cm and a frequency range of 0.1-0.5 Hz. I designed the rack & pinion drive train, its mounting components, and the 8020 extrusion structure along with assisting with the BLDC tuning. We won 2nd/32 teams for Best Trade Show Exhibit.",
+"summary": "I collaborated in a team of 4 ME's to design and assemble a fully functioning small-scale oscillatory flume for Dr. Chamorro. The flume ran an ODrive P + PI cascade position controller capable of achieving square, triangle, and sine waves with an amiplitude range of 10-30 cm and a frequency range of 0.1-0.5 Hz. I designed the rack & pinion drive train, its mounting components, and the 8020 extrusion structure along with assisting with the BLDC tuning. One particular challenge was the DFM, as the on campus machine shop was extremely busy. I designed all custom parts to either be waterjet SS303/304 or 3D printed for quick turn around times. We won 2nd/32 teams for Best Trade Show Exhibit.",
   "collaborators": [
     {"name": "Jordan Westphal", "url": "https://www.linkedin.com/in/jordan-westphal-509591278/"},
     {"name": "Jedd Miguel", "url": "https://www.linkedin.com/in/jeddmiguel/"},
@@ -11,7 +11,9 @@
     "Fusion 360",
     "Controller Tuning",
     "Presenting",
-    "Documentation"
+    "Documentation",
+    "DFM",
+    "3D Printing"
   ],
   "date": "Fall 2025",
   "sections": [
@@ -42,6 +44,23 @@
   },
   "image": "./assets/senior_design_website.jpg",
   "imageAlt": "Assembled senior design oscillatory flume with an aluminum extrusion frame and rack-and-pinion drive on a lab bench.",
+  "media": [
+    {
+      "type": "image",
+      "src": "./assets/senior_design_website.jpg",
+      "alt": "Assembled oscillatory flume on a lab bench."
+    },
+    {
+      "type": "video",
+      "src": "./assets/me470-flume-demo.mp4",
+      "alt": "Oscillatory flume demonstration."
+    },
+    {
+      "type": "image",
+      "src": "./assets/me470-motor-mount-subassembly.png",
+      "alt": "Motor mount subassembly CAD drawing showing the shaft, pinion, motor, and red mounting components."
+    }
+  ],
   "demoLink": {
     "url": "https://youtu.be/jESVvx_8YNc",
     "prefix": "Check out the ad/demo video",

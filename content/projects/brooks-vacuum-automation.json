@@ -1,0 +1,9 @@
+{
+  "title": "Brooks Automation: Vacuum Automation Mechanical Engineering Team",
+  "order": 3,
+  "date": "Summer 2025",
+  "summary": "At my Brooks internship, I had 3 main projects. My first and largest project was a customer collaboration effort to diagnose and address EFEM vibrational issues with their connected proprietary tooling. I collected 3-axis accelerometer data with sensors ranging in sensitivity and wrote Python code to conduct the spectral analysis and provide relevant data. I led meetings with the customer to present and discuss the findings and recommendations, interfacing with both technical and non-technical stakeholders. For my second project, I designed a fixture to parallelize a 24-hr motor test. Previously, this test was conducted in the full assembly, but my fixture allowed the motors to be hot-swappable on the test bench along with keeping all the loose motor hardware clean and easy to install. For my last project, the team had been working on a robot with significantly larger-than-normal dimensions. I performed the static and dynamic load calculations (in Python) and also conducted FEA (along with creating the simplified CAD models) for various configurations of the upcoming robot. This allowed the team to know if existing subassemblies and components could be safely reused for this new robot design. Along with these main projects I also worked off a previous intern's design to design and assemble a test-stand along with its 8020 extruded framing.",
+  "image": "./assets/brooks-vacuum-automation.webp",
+  "imageAlt": "Brooks Automation semiconductor wafer handling system with a vacuum automation backend.",
+  "tags": ["Creo", "Python", "3D Printing", "Spectral Analysis", "FEA", "Presenting", "Customer Communication"]
+}
